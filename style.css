@@ -1,0 +1,64 @@
+:root {
+	--accent-color: #d71343;
+}
+
+body, html {
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	scroll-behavior: smooth;
+	margin: 0;
+	font-family: 'Chakra Petch', sans-serif;
+}
+
+section {
+	margin: 48px;
+}
+
+button:hover {
+	cursor: pointer;
+}
+
+.full-width {
+	width: 100vw;
+}
+
+.display-flex {
+	display: flex;
+}
+
+.my-10 {
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.my-24 {
+	margin-top: 24px;
+	margin-bottom: 24px;
+}
+
+.navbar {
+	background-color: rgba(0, 0, 0, .8);
+}
+
+.navbar-item {
+	color: white;
+	display: block;
+	text-decoration: none;
+	padding: 10px 24px;
+}
+
+.navbar-item:hover {
+	background-color: rgba(0, 0, 0, .9);
+}
+
+.accent {
+	color: var(--accent-color);
+}
+
+
+
+
