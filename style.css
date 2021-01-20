@@ -90,8 +90,13 @@ th, td {
 	color: var(--accent-color);
 }
 
-.grid-img {
+.grid-img, .grid-vid {
 	max-width: 100%;
+}
+
+.yt-vid {
+	margin: 0;
+	padding: 0;
 }
 
 
