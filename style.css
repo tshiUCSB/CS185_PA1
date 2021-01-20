@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@300;400&display=swap');
+
 :root {
 	--accent-color: #d71343;
 }
@@ -22,12 +24,20 @@ button:hover {
 	cursor: pointer;
 }
 
-.full-width {
+.screen-width {
 	width: 100vw;
+}
+
+.width-100 {
+	width: 100%;
 }
 
 .display-flex {
 	display: flex;
+}
+
+.display-grid {
+	display: grid;
 }
 
 .my-10 {
@@ -38,6 +48,18 @@ button:hover {
 .my-24 {
 	margin-top: 24px;
 	margin-bottom: 24px;
+}
+
+.grid-col-auto {
+	grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+}
+
+.grid-place-center {
+	place-items: center;
+}
+
+.grid-gap-10px {
+	gap: 20px 20px;
 }
 
 .navbar {
@@ -59,6 +81,8 @@ button:hover {
 	color: var(--accent-color);
 }
 
-
+.grid-img {
+	max-width: 100%;
+}
 
 
