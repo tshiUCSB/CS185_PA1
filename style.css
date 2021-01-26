@@ -90,10 +90,19 @@ button:hover {
 	display: none;
 }
 
+.bottom-24px {
+	bottom: 24px;
+}
+
 .center-center {
 	top: 50%;
 	left: 50%;
 	transform: translate(-50%, -50%);
+}
+
+.horiz-center {
+	left: 50%;
+	transform: translateX(-50%);
 }
 
 .bg-black-40 {
@@ -149,9 +158,15 @@ th, td {
 	opacity: .6;
 }
 
+.grid-vid::-webkit-media-controls {
+  display: none;
+}
+
 .overlay-content {
 	max-width: 80%;
 	max-height: 80%;
 	position: absolute;
+	z-index: 500;
 }
+
 
