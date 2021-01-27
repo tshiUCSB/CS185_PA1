@@ -18,27 +18,30 @@
 	</div>
 
 	<section id="question-inputs">
-		<div class="my-10">
-			<label>Last game you've played?</label>
-			<input type="text" name="last-game" placeholder="Terraria" autofoucs />
+		<div class="pos-absolute center-center">
+			<div class="my-10">
+				<label>Last game you've played?</label>
+				<input type="text" name="last-game" placeholder="Terraria" autofoucs />
+			</div>
+
+			<div class="my-24">
+				<label>Favorite game you've played?</label>
+				<input type="text" name="fav-game" placeholder="Hollow Knight" />
+			</div>
+
+			<h3>Press <span class="accent">F</span> to pay respect or press <span class="accent">X</span> to Shaun</h3>
+			<input type="radio" name="press-button" id="respect" value="pay-respect" />
+			<label for="respect">F</label>
+			<br>
+			<input type="radio" name="press-button" id="shaun" value="shaun" />
+			<label for="shaun">X</label>
+			<br><br>
+
+			<div class="text-align-center">
+				<button>Press</button>
+			</div>
 		</div>
 
-		<div class="my-24">
-			<label>Favorite game you've played?</label>
-			<input type="text" name="fav-game" placeholder="Hollow Knight" />
-		</div>
-	</section>
-
-	<section id="radio-input">
-		<h3>Press <span class="accent">F</span> to pay respect or press <span class="accent">X</span> to Shaun</h3>
-		<input type="radio" name="press-button" id="respect" value="pay-respect" />
-		<label for="respect">F</label>
-		<br>
-		<input type="radio" name="press-button" id="shaun" value="shaun" />
-		<label for="shaun">X</label>
-		<br><br>
-
-		<button>Press</button>
 	</section>
 
 	<script src="js/scroll_top.js"></script>

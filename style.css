@@ -66,6 +66,10 @@ button:hover {
 	margin-bottom: 24px;
 }
 
+.m-auto {
+	margin: auto;
+}
+
 .grid-col-auto {
 	grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
 }
@@ -181,8 +185,8 @@ button:active {
 }
 
 .overlay-content {
-	max-width: 80%;
-	max-height: 80%;
+	max-width: 90%;
+	max-height: 90%;
 	position: absolute;
 	z-index: 500;
 }
